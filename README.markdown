@@ -18,7 +18,7 @@ Each JSON payload should be structured in the following format:
       "properties": [
         { "name": "*property_name*",
           "value": "*property_value*" }],
-    
+
       "nodes": [
         { "path": "*node/path/relative/to/page*",
           "properties": [
@@ -27,7 +27,7 @@ Each JSON payload should be structured in the following format:
             { "name": "*property_name*",
               "type": "*property_type*",
               "value": ["*value1*", "*value2*", "*value3*"] }]},
-    
+
         { "path": "*node/path/relative/to/page*",
           "properties": [
             { "name": "*property_name*",
@@ -49,7 +49,7 @@ See the supplied `page_example.json` file for a real-world representation of a C
 
     `python pyslinger.py cq_server username password payloads_path [mode]`
 
-> Supported modes are `itemwise` and `nodewise`. 
+> Supported modes are `itemwise` and `nodewise`.
 
 > In *itemwise* mode, a single POST request is used to load the content item, followed by separate requests for associated binary files (if any).
 

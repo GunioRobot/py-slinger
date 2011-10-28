@@ -2,13 +2,13 @@
   "properties": [
     { "name": "jcr:primaryType",
       "value": "dam:Asset" }],
-    
+
   "nodes": [
     { "path": "jcr:content",
       "properties": [
         { "name": "jcr:primaryType",
           "value": "dam:AssetContent" }]},
-    
+
     { "path": "jcr:content/metadata",
       "properties": [
         { "name": "dc:Description",
@@ -20,7 +20,7 @@
         { "name": "cq:tags",
           "type": "String[]",
           "value": ["stockphotography:locations_and_travel/landmarks"] }]},
-    
+
     { "path": "jcr:content/renditions",
       "properties": [
         { "name": "original",
